@@ -31,3 +31,4 @@ void print2(ElemType c)
 	printf("%c ", c);
 }
 
+
