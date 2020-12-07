@@ -3,8 +3,8 @@
 typedef struct QNode
 {
 	QElemType data;
-	QNode *next;
-}*QueuePtr;
+	struct QNode *next;
+}QNode, *QueuePtr;
 
 typedef struct LinkQueue
 {

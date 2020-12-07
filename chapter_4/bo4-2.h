@@ -1,5 +1,5 @@
 //bo4-2.h
-//串采用对分配存储结构（由4-2.h定义）的基本操作（12个）
+//串采用堆分配存储结构（由4-2.h定义）的基本操作（12个）
 #define DestroyStr ClearStr
 
 void InitStr(HSPtr P)
